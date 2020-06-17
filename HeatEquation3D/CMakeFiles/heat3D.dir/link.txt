@@ -1,0 +1,1 @@
+mpicxx    -rdynamic CMakeFiles/heat3D.dir/heat3D_generated_heat3D.cu.o  -o heat3D -Wl,-Bstatic -lcudart_static -Wl,-Bdynamic -lpthread -ldl -lrt 

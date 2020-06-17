@@ -1,0 +1,717 @@
+The system is: Linux - 3.10.0-1062.9.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /apps/software/GCCcore/8.3.0/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /apps/software/GCCcore/8.3.0/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6edbc/fast && /usr/bin/gmake -f CMakeFiles/cmTC_6edbc.dir/build.make CMakeFiles/cmTC_6edbc.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6edbc.dir/testCCompiler.c.o
+/apps/software/GCCcore/8.3.0/bin/cc    -o CMakeFiles/cmTC_6edbc.dir/testCCompiler.c.o   -c /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6edbc
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6edbc.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/cc      -rdynamic CMakeFiles/cmTC_6edbc.dir/testCCompiler.c.o  -o cmTC_6edbc 
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_34cf8/fast && /usr/bin/gmake -f CMakeFiles/cmTC_34cf8.dir/build.make CMakeFiles/cmTC_34cf8.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o
+/apps/software/GCCcore/8.3.0/bin/cc   -v -o CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o   -c /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccM00Vtb.s
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/wibble/software/GCCcore/8.3.0/include"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/software/cURL/7.66.0-GCCcore-8.3.0/include
+ /apps/software/bzip2/1.0.8-GCCcore-8.3.0/include
+ /apps/software/ncurses/6.1-GCCcore-8.3.0/include
+ /apps/software/OpenMPI/3.1.4-gcccuda-2019b/include
+ /apps/software/hwloc/1.11.12-GCCcore-8.3.0/include
+ /apps/software/libpciaccess/0.14-GCCcore-8.3.0/include
+ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2
+ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include
+ /apps/software/XZ/5.2.4-GCCcore-8.3.0/include
+ /apps/software/numactl/2.0.12-GCCcore-8.3.0/include
+ /apps/software/zlib/1.2.11-GCCcore-8.3.0/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/include
+ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw
+ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include
+ /apps/software/impi/2018.5.288-iccifort-2019.5.281/include64
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include
+ /apps/software/binutils/2.32-GCCcore-8.3.0/include
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c962bbea9c82be903aa714310554db4e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o /tmp/ccM00Vtb.s
+GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/
+LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_34cf8
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34cf8.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o  -o cmTC_34cf8 
+Using built-in specs.
+COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/cc
+COLLECT_LTO_WRAPPER=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/
+LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34cf8' '-mtune=generic' '-march=x86-64'
+ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsrwNLc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_34cf8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib -L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib -L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib -L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib -L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib -L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib -L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib -L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib -L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib -L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64 -L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/apps/software/binutils/2.32-GCCcore-8.3.0/lib -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34cf8' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+    add: [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+    add: [/apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+    add: [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+    add: [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+    add: [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+    add: [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+    add: [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+    add: [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+    add: [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+    add: [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+    add: [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+    add: [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+    add: [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+    add: [/apps/software/binutils/2.32-GCCcore-8.3.0/include]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include] ==> [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include] ==> [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/include] ==> [/apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include] ==> [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+  collapse include dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include] ==> [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include] ==> [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+  collapse include dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include] ==> [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include] ==> [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include] ==> [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+  collapse include dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+  collapse include dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+  collapse include dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64] ==> [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+  collapse include dir [/apps/software/binutils/2.32-GCCcore-8.3.0/include] ==> [/apps/software/binutils/2.32-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include;/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include;/apps/software/ncurses/6.1-GCCcore-8.3.0/include;/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include;/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include;/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include;/apps/software/XZ/5.2.4-GCCcore-8.3.0/include;/apps/software/numactl/2.0.12-GCCcore-8.3.0/include;/apps/software/zlib/1.2.11-GCCcore-8.3.0/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/include;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include;/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include;/apps/software/binutils/2.32-GCCcore-8.3.0/include;/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_34cf8/fast && /usr/bin/gmake -f CMakeFiles/cmTC_34cf8.dir/build.make CMakeFiles/cmTC_34cf8.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/apps/software/GCCcore/8.3.0/bin/cc   -v -o CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o   -c /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -iprefix /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccM00Vtb.s]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/wibble/software/GCCcore/8.3.0/include"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+  ignore line: [ /apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+  ignore line: [ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+  ignore line: [ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+  ignore line: [ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+  ignore line: [ /apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+  ignore line: [ /apps/software/binutils/2.32-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c962bbea9c82be903aa714310554db4e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o /tmp/ccM00Vtb.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_34cf8]
+  ignore line: [/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34cf8.dir/link.txt --verbose=1]
+  ignore line: [/apps/software/GCCcore/8.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o  -o cmTC_34cf8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34cf8' '-mtune=generic' '-march=x86-64']
+  link line: [ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsrwNLc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_34cf8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib -L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib -L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib -L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib -L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib -L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib -L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib -L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib -L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib -L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64 -L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/apps/software/binutils/2.32-GCCcore-8.3.0/lib -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsrwNLc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34cf8] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib] ==> dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib] ==> dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib] ==> dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib] ==> dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib]
+    arg [-L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib] ==> dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib] ==> dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib] ==> dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib] ==> dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib] ==> dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib] ==> dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs] ==> dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs]
+    arg [-L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64] ==> dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64]
+    arg [-L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64] ==> dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64]
+    arg [-L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64] ==> dir [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64]
+    arg [-L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64] ==> dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+    arg [-L/apps/software/binutils/2.32-GCCcore-8.3.0/lib] ==> dir [/apps/software/binutils/2.32-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_34cf8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc] ==> [/apps/software/GCCcore/8.3.0/lib/gcc]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> [/apps/software/GCCcore/8.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib] ==> [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib] ==> [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib] ==> [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib] ==> [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib]
+  collapse library dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib] ==> [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib] ==> [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib] ==> [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib] ==> [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib] ==> [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs]
+  collapse library dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64]
+  collapse library dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64]
+  collapse library dir [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64]
+  collapse library dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64] ==> [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+  collapse library dir [/apps/software/binutils/2.32-GCCcore-8.3.0/lib] ==> [/apps/software/binutils/2.32-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/apps/software/GCCcore/8.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/apps/software/GCCcore/8.3.0/lib/gcc;/apps/software/GCCcore/8.3.0/lib64;/lib64;/usr/lib64;/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib;/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib;/apps/software/ncurses/6.1-GCCcore-8.3.0/lib;/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib;/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib;/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib;/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib;/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib;/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib;/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs;/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64;/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64;/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin;/apps/software/binutils/2.32-GCCcore-8.3.0/lib;/apps/software/GCCcore/8.3.0/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_05f55/fast && /usr/bin/gmake -f CMakeFiles/cmTC_05f55.dir/build.make CMakeFiles/cmTC_05f55.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05f55.dir/testCXXCompiler.cxx.o
+/apps/software/GCCcore/8.3.0/bin/c++     -o CMakeFiles/cmTC_05f55.dir/testCXXCompiler.cxx.o -c /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05f55
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f55.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/c++       -rdynamic CMakeFiles/cmTC_05f55.dir/testCXXCompiler.cxx.o  -o cmTC_05f55 
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_565fb/fast && /usr/bin/gmake -f CMakeFiles/cmTC_565fb.dir/build.make CMakeFiles/cmTC_565fb.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o
+/apps/software/GCCcore/8.3.0/bin/c++    -v -o CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -c /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -D_GNU_SOURCE /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccoxwyVf.s
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/wibble/software/GCCcore/8.3.0/include"
+ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/software/cURL/7.66.0-GCCcore-8.3.0/include
+ /apps/software/bzip2/1.0.8-GCCcore-8.3.0/include
+ /apps/software/ncurses/6.1-GCCcore-8.3.0/include
+ /apps/software/OpenMPI/3.1.4-gcccuda-2019b/include
+ /apps/software/hwloc/1.11.12-GCCcore-8.3.0/include
+ /apps/software/libpciaccess/0.14-GCCcore-8.3.0/include
+ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2
+ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include
+ /apps/software/XZ/5.2.4-GCCcore-8.3.0/include
+ /apps/software/numactl/2.0.12-GCCcore-8.3.0/include
+ /apps/software/zlib/1.2.11-GCCcore-8.3.0/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include
+ /apps/software/CUDA/10.1.243-GCC-8.3.0/include
+ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw
+ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include
+ /apps/software/impi/2018.5.288-iccifort-2019.5.281/include64
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include
+ /apps/software/binutils/2.32-GCCcore-8.3.0/include
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8e1c712ab85070bfc8c54a06544a02d4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoxwyVf.s
+GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/
+LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_565fb
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_565fb.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_565fb 
+Using built-in specs.
+COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/c++
+COLLECT_LTO_WRAPPER=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/
+LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_565fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmqzt8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_565fb /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib -L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib -L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib -L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib -L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib -L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib -L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib -L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib -L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib -L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64 -L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/apps/software/binutils/2.32-GCCcore-8.3.0/lib -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_565fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+    add: [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+    add: [/apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+    add: [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+    add: [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+    add: [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+    add: [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+    add: [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+    add: [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+    add: [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+    add: [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+    add: [/apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+    add: [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+    add: [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+    add: [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+    add: [/apps/software/binutils/2.32-GCCcore-8.3.0/include]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include] ==> [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include] ==> [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/include] ==> [/apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include] ==> [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+  collapse include dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include] ==> [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include] ==> [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+  collapse include dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include] ==> [/apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include] ==> [/apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include] ==> [/apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+  collapse include dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/include] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+  collapse include dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+  collapse include dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+  collapse include dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64] ==> [/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+  collapse include dir [/apps/software/binutils/2.32-GCCcore-8.3.0/include] ==> [/apps/software/binutils/2.32-GCCcore-8.3.0/include]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0] ==> [/apps/software/GCCcore/8.3.0/include/c++/8.3.0]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu] ==> [/apps/software/GCCcore/8.3.0/include/c++/8.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward] ==> [/apps/software/GCCcore/8.3.0/include/c++/8.3.0/backward]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/software/cURL/7.66.0-GCCcore-8.3.0/include;/apps/software/bzip2/1.0.8-GCCcore-8.3.0/include;/apps/software/ncurses/6.1-GCCcore-8.3.0/include;/apps/software/OpenMPI/3.1.4-gcccuda-2019b/include;/apps/software/hwloc/1.11.12-GCCcore-8.3.0/include;/apps/software/libpciaccess/0.14-GCCcore-8.3.0/include;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/include;/apps/software/XZ/5.2.4-GCCcore-8.3.0/include;/apps/software/numactl/2.0.12-GCCcore-8.3.0/include;/apps/software/zlib/1.2.11-GCCcore-8.3.0/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include;/apps/software/CUDA/10.1.243-GCC-8.3.0/include;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include;/apps/software/impi/2018.5.288-iccifort-2019.5.281/include64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include;/apps/software/binutils/2.32-GCCcore-8.3.0/include;/apps/software/GCCcore/8.3.0/include/c++/8.3.0;/apps/software/GCCcore/8.3.0/include/c++/8.3.0/x86_64-pc-linux-gnu;/apps/software/GCCcore/8.3.0/include/c++/8.3.0/backward;/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_565fb/fast && /usr/bin/gmake -f CMakeFiles/cmTC_565fb.dir/build.make CMakeFiles/cmTC_565fb.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/apps/software/GCCcore/8.3.0/bin/c++    -v -o CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -c /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -iprefix /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/ -D_GNU_SOURCE /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccoxwyVf.s]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/wibble/software/GCCcore/8.3.0/include"]
+  ignore line: [ignoring duplicate directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/apps/software/GCCcore/8.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/software/cURL/7.66.0-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/bzip2/1.0.8-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/ncurses/6.1-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/OpenMPI/3.1.4-gcccuda-2019b/include]
+  ignore line: [ /apps/software/hwloc/1.11.12-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/libpciaccess/0.14-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2]
+  ignore line: [ /apps/software/libxml2/2.9.9-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/XZ/5.2.4-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/numactl/2.0.12-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/zlib/1.2.11-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/nvvm/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/extras/CUPTI/include]
+  ignore line: [ /apps/software/CUDA/10.1.243-GCC-8.3.0/include]
+  ignore line: [ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include/fftw]
+  ignore line: [ /apps/software/imkl/2019.5.281-iimpi-2019b/mkl/include]
+  ignore line: [ /apps/software/impi/2018.5.288-iccifort-2019.5.281/include64]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/include]
+  ignore line: [ /apps/software/binutils/2.32-GCCcore-8.3.0/include]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8e1c712ab85070bfc8c54a06544a02d4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoxwyVf.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_565fb]
+  ignore line: [/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_565fb.dir/link.txt --verbose=1]
+  ignore line: [/apps/software/GCCcore/8.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_565fb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/apps/software/GCCcore/8.3.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/wibble/software/GCCcore/8.3.0 --with-local-prefix=/wibble/software/GCCcore/8.3.0 --enable-bootstrap --with-isl=/wibble/build/GCCcore/8.3.0/system-system/gcc-8.3.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib/:/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib/:/apps/software/ncurses/6.1-GCCcore-8.3.0/lib/:/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib/:/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib/:/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib/:/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib/:/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib/:/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib/:/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs/:/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/:/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64/:/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64/:/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/apps/software/binutils/2.32-GCCcore-8.3.0/lib/:/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_565fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmqzt8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_565fb /lib/../lib64/crt1.o /lib/../lib64/crti.o /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib -L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib -L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib -L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib -L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib -L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib -L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib -L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib -L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib -L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs -L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64 -L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64 -L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/apps/software/binutils/2.32-GCCcore-8.3.0/lib -L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/apps/software/GCCcore/8.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmqzt8f.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_565fb] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib] ==> dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib] ==> dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/ncurses/6.1-GCCcore-8.3.0/lib] ==> dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib] ==> dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib]
+    arg [-L/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib] ==> dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib] ==> dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib] ==> dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib] ==> dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib] ==> dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib] ==> dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs] ==> dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs]
+    arg [-L/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64] ==> dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64]
+    arg [-L/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64] ==> dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64]
+    arg [-L/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64] ==> dir [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64]
+    arg [-L/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64] ==> dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+    arg [-L/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+    arg [-L/apps/software/binutils/2.32-GCCcore-8.3.0/lib] ==> dir [/apps/software/binutils/2.32-GCCcore-8.3.0/lib]
+    arg [-L/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_565fb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc] ==> [/apps/software/GCCcore/8.3.0/lib/gcc]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> [/apps/software/GCCcore/8.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib] ==> [/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib] ==> [/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib] ==> [/apps/software/ncurses/6.1-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib] ==> [/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib]
+  collapse library dir [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib] ==> [/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib] ==> [/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib] ==> [/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib] ==> [/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib] ==> [/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib] ==> [/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs]
+  collapse library dir [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64] ==> [/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64]
+  collapse library dir [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64]
+  collapse library dir [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64] ==> [/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64]
+  collapse library dir [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64] ==> [/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+  collapse library dir [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> [/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+  collapse library dir [/apps/software/binutils/2.32-GCCcore-8.3.0/lib] ==> [/apps/software/binutils/2.32-GCCcore-8.3.0/lib]
+  collapse library dir [/apps/software/GCCcore/8.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/apps/software/GCCcore/8.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/apps/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/apps/software/GCCcore/8.3.0/lib/gcc;/apps/software/GCCcore/8.3.0/lib64;/lib64;/usr/lib64;/apps/software/cURL/7.66.0-GCCcore-8.3.0/lib;/apps/software/bzip2/1.0.8-GCCcore-8.3.0/lib;/apps/software/ncurses/6.1-GCCcore-8.3.0/lib;/apps/software/OpenMPI/3.1.4-gcccuda-2019b/lib;/apps/software/hwloc/1.11.12-GCCcore-8.3.0/lib;/apps/software/libpciaccess/0.14-GCCcore-8.3.0/lib;/apps/software/libxml2/2.9.9-GCCcore-8.3.0/lib;/apps/software/XZ/5.2.4-GCCcore-8.3.0/lib;/apps/software/numactl/2.0.12-GCCcore-8.3.0/lib;/apps/software/zlib/1.2.11-GCCcore-8.3.0/lib;/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64/stubs;/apps/software/CUDA/10.1.243-GCC-8.3.0/lib64;/apps/software/imkl/2019.5.281-iimpi-2019b/mkl/lib/intel64;/apps/software/imkl/2019.5.281-iimpi-2019b/lib/intel64;/apps/software/impi/2018.5.288-iccifort-2019.5.281/lib64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.4;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mpi/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64;/apps/software/iccifort/2019.5.281/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin;/apps/software/binutils/2.32-GCCcore-8.3.0/lib;/apps/software/GCCcore/8.3.0/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_42fd8/fast && /usr/bin/gmake -f CMakeFiles/cmTC_42fd8.dir/build.make CMakeFiles/cmTC_42fd8.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42fd8.dir/CheckIncludeFile.c.o
+/apps/software/GCCcore/8.3.0/bin/cc   -fPIC    -o CMakeFiles/cmTC_42fd8.dir/CheckIncludeFile.c.o   -c /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42fd8
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42fd8.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_42fd8.dir/CheckIncludeFile.c.o  -o cmTC_42fd8 
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_186e8/fast && /usr/bin/gmake -f CMakeFiles/cmTC_186e8.dir/build.make CMakeFiles/cmTC_186e8.dir/build
+gmake[1]: Entering directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_186e8.dir/CheckFunctionExists.c.o
+/apps/software/GCCcore/8.3.0/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_186e8.dir/CheckFunctionExists.c.o   -c /apps/software/CMake/3.15.3-GCCcore-8.3.0/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_186e8
+/apps/software/CMake/3.15.3-GCCcore-8.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186e8.dir/link.txt --verbose=1
+/apps/software/GCCcore/8.3.0/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_186e8.dir/CheckFunctionExists.c.o  -o cmTC_186e8 -lpthread 
+gmake[1]: Leaving directory `/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/CMakeTmp'
+
+
+

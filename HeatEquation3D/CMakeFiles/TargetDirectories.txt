@@ -1,0 +1,3 @@
+/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/rebuild_cache.dir
+/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/heat3D.dir
+/scratch/s309876/cudaAwareMpi/Cuda-aware-MPI-on-3D-heate-quation/HeatEquation3D/CMakeFiles/edit_cache.dir
